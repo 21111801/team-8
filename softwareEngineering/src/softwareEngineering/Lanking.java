@@ -20,7 +20,7 @@ public class Lanking {
 	static String[] newname = new String[10];
 	static int[] newlank = new int[10];
 
-	public static void main(String[] args) {
+	class Lanking(String nowname, int nowpoint){
 		fileio();
 		pointget();
 		lankprint();
