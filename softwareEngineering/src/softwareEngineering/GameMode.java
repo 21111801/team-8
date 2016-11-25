@@ -191,6 +191,8 @@ public abstract class GameMode extends Thread implements GameInterface{
 						first_Gui.setVisible(true);
 						main_Frame.remove(end_Screen);
 						main_Frame.setVisible(false);
+						
+						class Lanking = new Lanking(score);
 					}
 					
 				});	
