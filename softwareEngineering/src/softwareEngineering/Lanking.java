@@ -20,24 +20,34 @@ public class Lanking {
 	static String[] newname = new String[10];
 	static int[] newlank = new int[10];
 
-	class Lanking(String nowname, int nowpoint){
+	public Lanking(int nowpoint){
+		this.nowpoint = nowpoint;
 		fileio();
 		pointget();
 		lankprint();
 		newlanksave();
 	}
-
+	
+	/*
+	public static void main(String args[]){
+		fileio();
+		pointget();
+		lankprint();
+		newlanksave();
+	}
+*/
 	public static void fileio() {
 		int[] lank = new int[10];
 		int point;
 		i = 0;
-
+		
 		Scanner scan = null;
 		try {
 			scan = new Scanner(new File("Lanking.dat"));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
+		
 
 		while (scan.hasNext()) {
 			savename[i] = scan.next();
@@ -54,26 +64,35 @@ public class Lanking {
 	}
 
 	public static void pointget() {
-		nowpoint = 1250;
-		nowname = "전지현";
+		Scanner scan = null;
+		System.out.println("이름을 입력하세요 : ");
+		nowname = scan.next();
 	}
 
 	public static void lankprint() {
 		int nowlank = 1;
-		for (int j = 0; j < i; j++) {
+		int j;
+		for (j = 0; j <= i; j++) {
 			if (check != 1)
 				break;
 			if (nowpoint <= savepoint[j])
-				j++;
+				continue;
 			else {
-				nowlank = savelank[j - 1];
+				if(savename[j]==null)
+					break;
+				if(j==0)
+					break;					
+				nowlank = savelank[j];
 				if (nowpoint == savepoint[j - 1])
 					nowlank++;
 				break;
 			}
 		}
 
-		for (int j = 0; j < i + 1 && j < 10; j++) {
+		if(j==i)
+			nowlank=savelank[j-1]+1;
+		
+		for (j = 0; j < i + 1 && j < 10; j++) {
 			if (j == nowlank - 1 || check != 1) {
 				newname[j] = nowname;
 				newlank[j] = nowlank;
