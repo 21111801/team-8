@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.11" icons="true">  
+  <object id="1" language="java" name="softwareEngineering.MainGUI.MyActionListener" project="softwareEngineering" 
+    file="/softwareEngineering/src/softwareEngineering/MainGUI.java" binary="false" label="myActionListener" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="228" y="0"/>    
+    <execution id="2">      
+      <position height="195" width="146" x="5" y="119"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="softwareEngineering.MainGUI" project="softwareEngineering" 
+    file="/softwareEngineering/src/softwareEngineering/MainGUI.java" binary="false" label="mainGUI" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="228" y="0"/>    
+    <execution id="4">      
+      <position height="147" width="121" x="155" y="143"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="24" width="7" x="212" y="242"/>    
+    </execution>  
+  </object>  
+  <object id="10" language="java" name="softwareEngineering.GameMode" project="softwareEngineering" 
+    file="/softwareEngineering/src/softwareEngineering/GameMode.java" binary="false" label="gameMode" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="361" y="0"/>    
+    <execution id="7">      
+      <position height="24" width="121" x="280" y="168"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="keyPressed(java.awt.event.KeyEvent):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="waitGame():void" asynchronous="true">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="8" operation="setVisible(boolean):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>
+</sequence-diagram>

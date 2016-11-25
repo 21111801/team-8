@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.11" icons="true">  
+  <object id="1" language="java" name="softwareEngineering.MainGUI" project="softwareEngineering" 
+    file="/softwareEngineering/src/softwareEngineering/MainGUI.java" binary="false" label="mainGUI" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="262" y="0"/>    
+    <execution id="2">      
+      <position height="325" width="121" x="5" y="100"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="24" width="121" x="5" y="782"/>    
+    </execution>  
+  </object>  
+  <object id="8" language="java" name="softwareEngineering.GameMode" project="softwareEngineering" 
+    file="/softwareEngineering/src/softwareEngineering/GameMode.java" binary="false" label="gameMode" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="262" y="0"/>    
+    <execution id="6">      
+      <position height="191" width="121" x="130" y="210"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="72" width="121" x="130" y="124"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="461" width="121" x="130" y="419"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="24" width="7" x="187" y="608"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="24" width="7" x="187" y="741"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="24" width="7" x="187" y="676"/>    
+    </execution>  
+  </object>  
+  <object id="27" language="java" name="softwareEngineering.GameMode.LoadingThread" project="softwareEngineering" 
+    file="/softwareEngineering/src/softwareEngineering/GameMode.java" binary="false" label="loadingThread" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="262" y="0"/>    
+    <execution id="12">      
+      <position height="24" width="131" x="255" y="148"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="676" width="131" x="255" y="252"/>    
+    </execution>    
+    <execution id="32">      
+      <position height="24" width="7" x="317" y="339"/>    
+    </execution>    
+    <execution id="34">      
+      <position height="509" width="7" x="317" y="395"/>    
+    </execution>    
+    <execution id="36">      
+      <position height="24" width="7" x="317" y="292"/>    
+    </execution>  
+  </object>  
+  <object id="37" language="java" name="softwareEngineering.PlayerManagement" project="softwareEngineering" 
+    file="/softwareEngineering/src/softwareEngineering/PlayerManagement.java" binary="false" label="playerManagement" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="262" y="0"/>    
+    <execution id="15">      
+      <position height="398" width="158" x="390" y="458"/>    
+    </execution>    
+    <execution id="39">      
+      <position height="24" width="7" x="466" y="590"/>    
+    </execution>    
+    <execution id="41">      
+      <position height="24" width="158" x="390" y="643"/>    
+    </execution>    
+    <execution id="43">      
+      <position height="24" width="158" x="390" y="696"/>    
+    </execution>    
+    <execution id="45">      
+      <position height="81" width="158" x="390" y="751"/>    
+    </execution>  
+  </object>  
+  <object id="48" language="java" name="softwareEngineering.GroundManagement" project="softwareEngineering" 
+    file="/softwareEngineering/src/softwareEngineering/GroundManagement.java" binary="false" label="groundManagement" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="262" y="0"/>    
+    <execution id="17">      
+      <position height="264" width="168" x="552" y="496"/>    
+    </execution>    
+    <execution id="47">      
+      <position height="24" width="7" x="633" y="784"/>    
+    </execution>    
+    <execution id="50">      
+      <position height="24" width="168" x="552" y="712"/>    
+    </execution>  
+  </object>  
+  <object id="51" language="java" name="softwareEngineering.AudioManagement" project="softwareEngineering" 
+    file="/softwareEngineering/src/softwareEngineering/AudioManagement.java" binary="false" label="audioManagement" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="262" y="0"/>    
+    <execution id="10">      
+      <position height="153" width="154" x="724" y="224"/>    
+    </execution>    
+    <execution id="30">      
+      <position height="64" width="7" x="798" y="276"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="97" width="154" x="724" y="537"/>    
+    </execution>  
+  </object>  
+  <object id="59" language="java" name="softwareEngineering.AudioManagement.TimeThread" project="softwareEngineering" 
+    file="/softwareEngineering/src/softwareEngineering/AudioManagement.java" binary="false" label="timeThread" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="262" y="0"/>    
+    <execution id="56">      
+      <position height="24" width="121" x="882" y="561"/>    
+    </execution>  
+  </object>  
+  <object id="60" language="java" name="softwareEngineering.MusicPlayer" project="softwareEngineering" 
+    file="/softwareEngineering/src/softwareEngineering/MusicPlayer.java" binary="false" label="musicPlayer" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="1075" y="0"/>    
+    <execution id="58">      
+      <position height="24" width="121" x="1132" y="586"/>    
+    </execution>    
+    <execution id="53">      
+      <position height="105" width="121" x="1132" y="248"/>    
+    </execution>    
+    <execution id="62">      
+      <position height="24" width="121" x="1132" y="305"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="setFile(java.io.File):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="start():void" asynchronous="true" x="90" y="188">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="9" operation="setMusic(java.lang.String):void" asynchronous="false" x="205" y="204">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="start():void" asynchronous="true" x="224" y="126">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="14" operation="start():void" asynchronous="true">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="start():void" asynchronous="true">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="audioPlay():void" asynchronous="true">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="checkGround():void" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="checkMissile():void" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="checkPlayer():void" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" operation="repaint():void" asynchronous="true">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="29" operation="isComplete():boolean" asynchronous="false" x="332" y="255">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="31" operation="checkCurrent(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="32"/>  
+  </message>  
+  <message id="33" operation="loadComplete():void" asynchronous="false">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="35" operation="startGame():void" asynchronous="false" x="208" y="399">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="38" operation="move():void" asynchronous="false">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="39"/>  
+  </message>  
+  <message id="40" operation="gravity():void" asynchronous="false">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="41"/>  
+  </message>  
+  <message id="42" operation="checkLocate():void" asynchronous="false">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="43"/>  
+  </message>  
+  <message id="44" operation="checkGroundAdd():void" asynchronous="false">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="45"/>  
+  </message>  
+  <message id="46" operation="checkAdd():void" asynchronous="false">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="47"/>  
+  </message>  
+  <message id="49" operation="moveGround():void" asynchronous="false">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="50"/>  
+  </message>  
+  <message id="52" operation="open(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="53"/>  
+  </message>  
+  <message id="54" asynchronous="false">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="55" operation="start():void" asynchronous="false">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="56"/>  
+  </message>  
+  <message id="57" operation="start():void" asynchronous="true">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="58"/>  
+  </message>  
+  <message id="61" operation="getSamples(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="62"/>  
+  </message>
+</sequence-diagram>
