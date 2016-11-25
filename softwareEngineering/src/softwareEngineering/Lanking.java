@@ -65,6 +65,7 @@ public class Lanking {
 
 	public static void pointget() {
 		Scanner scan = null;
+		
 		System.out.println("이름을 입력하세요 : ");
 		nowname = scan.next();
 	}
