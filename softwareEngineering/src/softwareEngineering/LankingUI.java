@@ -81,8 +81,6 @@ public class LankingUI extends JFrame {
 			public void mouseClicked(MouseEvent arg0) {
 				String nowname;
 				nowname = textField.getText();
-				System.out.println(nowname);
-				
 				
 			}
 		});
